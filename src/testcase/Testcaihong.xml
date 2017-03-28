@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testcaihong">
+	<parameter name="data" value="/Tools/test.properties"/>
+	<parameter name="locator" value="/Tools/locators.properties"/>
+  <test  name="Default test" preserve-order="true">
+    <classes>
+      <class name="testcase.wrongPorN">
+      <methods>
+      	<include name="logInwpwd"/>
+      	<include name="logInwusn"/>
+      	<include name="logInNoUsn"/>
+      	</methods>
+      	</class>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

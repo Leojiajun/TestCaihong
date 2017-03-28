@@ -2,32 +2,40 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56234" started-at="2017-03-28T02:27:42Z" finished-at="2017-03-28T02:28:38Z">
+  <suite name="Testcaihong" duration-ms="16571" started-at="2017-03-28T07:45:15Z" finished-at="2017-03-28T07:45:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56234" started-at="2017-03-28T02:27:42Z" finished-at="2017-03-28T02:28:38Z">
-      <class name="testcase.loginCaihong">
-        <test-method status="PASS" signature="openFirefox()[pri:0, instance:testcase.loginCaihong@5fe94a96]" name="openFirefox" is-config="true" duration-ms="5964" started-at="2017-03-28T10:27:42Z" finished-at="2017-03-28T10:27:48Z">
+    <test name="Default test" duration-ms="16571" started-at="2017-03-28T07:45:15Z" finished-at="2017-03-28T07:45:32Z">
+      <class name="testcase.wrongPorN">
+        <test-method status="PASS" signature="startfirefox(java.lang.String, java.lang.String)[pri:0, instance:testcase.wrongPorN@4883b407]" name="startfirefox" is-config="true" duration-ms="5771" started-at="2017-03-28T15:45:15Z" finished-at="2017-03-28T15:45:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Tools/test.properties]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/Tools/locators.properties]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openFirefox -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:testcase.loginCaihong@5fe94a96]" name="Login" duration-ms="6264" started-at="2017-03-28T10:27:48Z" finished-at="2017-03-28T10:27:54Z">
+        </test-method> <!-- startfirefox -->
+        <test-method status="PASS" signature="logInwpwd()[pri:0, instance:testcase.wrongPorN@4883b407]" name="logInwpwd" duration-ms="4331" started-at="2017-03-28T15:45:21Z" finished-at="2017-03-28T15:45:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="pdcManage()[pri:0, instance:testcase.loginCaihong@5fe94a96]" name="pdcManage" duration-ms="11498" started-at="2017-03-28T10:27:54Z" depends-on-methods="testcase.loginCaihong.Login" finished-at="2017-03-28T10:28:06Z">
+        </test-method> <!-- logInwpwd -->
+        <test-method status="PASS" signature="logInwusn()[pri:0, instance:testcase.wrongPorN@4883b407]" name="logInwusn" duration-ms="3241" started-at="2017-03-28T15:45:26Z" finished-at="2017-03-28T15:45:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pdcManage -->
-        <test-method status="PASS" signature="newPlan()[pri:0, instance:testcase.loginCaihong@5fe94a96]" name="newPlan" duration-ms="31668" started-at="2017-03-28T10:28:06Z" depends-on-methods="testcase.loginCaihong.pdcManage" finished-at="2017-03-28T10:28:38Z">
+        </test-method> <!-- logInwusn -->
+        <test-method status="PASS" signature="logInNoUsn()[pri:0, instance:testcase.wrongPorN@4883b407]" name="logInNoUsn" duration-ms="3208" started-at="2017-03-28T15:45:29Z" finished-at="2017-03-28T15:45:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- newPlan -->
-        <test-method status="PASS" signature="release()[pri:0, instance:testcase.loginCaihong@5fe94a96]" name="release" is-config="true" duration-ms="816" started-at="2017-03-28T10:28:38Z" finished-at="2017-03-28T10:28:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- release -->
-      </class> <!-- testcase.loginCaihong -->
+        </test-method> <!-- logInNoUsn -->
+      </class> <!-- testcase.wrongPorN -->
     </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+  </suite> <!-- Testcaihong -->
 </testng-results>
